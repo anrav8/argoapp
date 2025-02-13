@@ -22,5 +22,6 @@ spec:
     helm:
       valueFiles:
         - values.yaml
+        - ../../values/apps.yaml
   syncPolicy:
     automated: {} 
